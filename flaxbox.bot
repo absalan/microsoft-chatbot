@@ -1,0 +1,24 @@
+{
+    "name": "flaxbox",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "1"
+        },
+        {
+            "type": "qna",
+            "name": "FlaxKB",
+            "kbId": "36b1514a-752e-4ee1-b956-6a006eb7bf6e",
+            "hostname": "https://flaxqa.azurewebsites.net/qnamaker",
+            "endpointKey": "0f0c3807-d839-4045-9198-8913b2b286d0",
+            "subscriptionKey": "iuJtuZNh+hO5ECnpwe9EcA==!5msXF9DzbkP/sdUAkAaRcoaxdzC/mvjgItA9owsFL3TTsp2FI79FJ4/AsRd6h+Yu",
+            "id": "38"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
